@@ -1542,3 +1542,11 @@ document.addEventListener("DOMContentLoaded", () => {
     criarBanco();
 
 });
+const SUPABASE_URL = "https://mhohgqrhdfwblqsqzhrq.supabase.co";
+
+const SUPABASE_ANON_KEY = "sb_publishable_9qpyfxx7stZuwec9fNM6kg_AcTHuPj3";
+
+const supabaseClient = supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_ANON_KEY
+);
